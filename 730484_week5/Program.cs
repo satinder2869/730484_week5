@@ -6,37 +6,57 @@ namespace _730484_week5
     {
         static void Main(string[] args)
         {
-            var a = new TestQuestion2();
-            a.PlayingWithForLoops();
+            var a = new testques2();
+            a.Play();
         }
     }
 
-    class TestQuestion2
+    class testques2
     {
-        public int myFavVariable = 0;
-
-        public void PlayingWithForLoops()
+        public int myfavvari = 0;
+        public void Play()
         {
-            // add  10 numbers
+            //write a for loop
 
-            for (; MyMethod();)
+            for (; my();)
             {
-                if (myFavVariable > 10)
-                {
-                    Console.WriteLine("i am so out of here");
-                    break;
-                }
-                Console.WriteLine("ohh no i have to go through stupid loop again");
-
+                if (myfavvari <= 10)
+                    Console.WriteLine("you are fool");
+                break;
             }
-
-
+            Console.WriteLine("shit for loop again");
         }
-        public bool MyMethod()
+        public bool my()
         {
-            myFavVariable++;
+            myfavvari++;
             return true;
         }
     }
 
+    class dog
+    {
+        public dog(string name, string breed)
+        {
+            dog_name = name;
+            dog_breed = breed;
+        }
+        public string dog_name;
+        public string dog_breed;
+
+        public dog next dog;
+public dog prev_dog;
+
+    }
+    class birthday_party
+    {
+        public dog peanut;
+        public dog fifi;
+        public dog clarence;
+        public dog roy;
+
+        public dog head;
+        public dog tail;
+        public dog temporary;
+    }
 }
+
